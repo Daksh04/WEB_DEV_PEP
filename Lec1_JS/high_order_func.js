@@ -21,3 +21,7 @@ function sayHi(fullname,fun){
 
 sayHi("TONY STARK",getFirstName);
 sayHi("BRUCE BANNER",getLastName);
+
+// Output:-
+// TONY
+// BANNER
