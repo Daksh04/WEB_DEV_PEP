@@ -25,15 +25,33 @@
 // //   4
 // }
 
-let data=[21,22,"Samar","Kinjal"]
-var arrLength= data.length;
+// let data=[21,22,"Samar","Kinjal"]
+// var arrLength= data.length;
 
-for(let i=0;i<arrLength;i++){
-    console.log(data[i])
-}
+// for(let i=0;i<arrLength;i++){
+//     console.log(data[i])
+// }
 
 // Output:-(28-33 lines)
 // 21
 // 22
 // Samar
 // Kinjal
+
+let data={
+    name:"Steve",
+    place:"Denmark",
+    time:100,
+    ans: true,
+    movies:{}
+}
+
+for(let i in data){
+    console.log(i)
+    //o/p:-(41-47)
+//     name
+//     place
+//     time
+//     ans
+//     movies
+}
